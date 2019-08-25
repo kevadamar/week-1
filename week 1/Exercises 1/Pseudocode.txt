@@ -1,0 +1,64 @@
+Keva Damar Galih
+kevadamarg@gmail.com
+
+
+#pseudocode 
+
+
+1. newton second law
+
+STORE "m" TO 600
+STORE "a" TO 2
+COMPUTE "m" added by "a"
+SAVE previous computation result
+SHOW the computation result
+
+
+2. tahun kabisat
+
+STORE "tahun" TO any number
+
+if "tahun" mod 4 equal 0
+then
+    IF "tahun" mod 100 not equal 0
+    	DISPLAY "Bukan Tahun Kabisat"
+       
+    ELSE IF "tahun" mod 4 equal 0
+	then
+	   IF "tahun" mod 100 equal 0 && "tahun" mod 400 equal 0
+           	DISPLAY "Tahun Kabisat"
+       	   ELSE
+           	DISPLAY "Bukan Tahun Kabisat"
+ELSE DISPLAY "Bukan Tahun Kabisat"
+
+
+3. laundry day
+
+*while
+
+STORE "pakaian" TO 0
+
+WHILE "pakaian" < 20
+  ADD "pakaian" by 1
+
+DISPLAY "pakaian sudah masuk semua"
+
+
+4. Periksa Kuku
+
+ STORE "guruKeliling" TO 0
+ WHILE "guruKeliling" < 40
+
+	//jika bernilai genap murid berkuku pendek
+	IF "guruKeliling" mod 2 equal 0
+		DISPLAY "Bagus kuku kamu pendek nak"
+	ELSE
+		DISPLAY "Kuku kamu panjang, kamu saya hukum"
+
+  ADD "guruKeliling" by 1
+  DISPLAY "guruKeliling"
+
+
+
+
+
